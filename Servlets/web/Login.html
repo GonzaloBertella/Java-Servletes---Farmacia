@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+              integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <link  rel="stylesheet" href="CSS/cssListados.css" type="text/css">
+        <title>Login</title> 
+
+
+        <!-- <style>
+             body {
+                 background-image: url( "https://learn.g2.com/hubfs/hardware-vs-software.jpg" );
+             }
+         </style>
+        -->
+    </head>
+
+
+    <body>
+
+
+
+        <header class="bg_animate">
+
+            <section class="banner_title">
+                <h1>Bienvenidos al Trabajo Final de Laboratorio 4 </h1>
+
+                <div class="banner_img">
+                    <img src="https://uvs.frc.utn.edu.ar/pluginfile.php/1/theme_adaptable/logo/1616628547/tup_completo_blanco_transparente.png" alt="">
+                </div>
+
+                <form class="container pt-4" id="formulario" action="Login" method="POST">
+                    <h3 style="text-align: center" >Autenticación de Usuario</h3>
+                    <div class="row">
+
+                        <div class="col-sm-12 col-md-6 col-lg-6 mb-3" style="">
+                            <label>Usuario (admin)</label>
+                            <input type="text" class="form-control" id="validationCustom01"  name="txtUsuario">
+                            <div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
+                            <label >Contraseña (admin)</label>
+                            <input type="password" class="form-control" id="validationCustom04" name="txtPassword">
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" type="submit" id="registrar">Ingresar</button>
+                </form>
+
+                <!--<!-- comment 
+            <div class="banner_img">
+                <img src="https://uvs.frc.utn.edu.ar/pluginfile.php/1/theme_adaptable/logo/1616628547/tup_completo_blanco_transparente.png" alt="">
+            </div>
+                -->
+            </section>
+
+            <div class="burbujas">
+                <div class="burbuja"></div>
+                <div class="burbuja"></div>
+                <div class="burbuja"></div>
+                <div class="burbuja"></div>
+                <div class="burbuja"></div>
+                <div class="burbuja"></div>
+                <div class="burbuja"></div>
+                <div class="burbuja"></div>
+                <div class="burbuja"></div>
+                <div class="burbuja"></div>
+            </div>
+
+        </header>
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+                integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+                integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+                integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.0/dist/jquery.validate.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="./js/js/validaciones.js"></script>
+
+    </body>
+</html>

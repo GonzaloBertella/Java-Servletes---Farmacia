@@ -1,0 +1,86 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 01/11/2021, 09:49:28
+    Author     : gonza
+*/
+
+body{
+    background-image: url("https://i2.wp.com/akrocard.com/pt/wp-content/uploads/2015/05/fondo-degradado-azul.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    min-height: 650px;
+    font-family: 'Helvetica', cursive;
+    color: whitesmoke;
+}
+
+h1{
+    text-align: center;
+    padding-top: 100px;
+    text-shadow: 2px 2px 2px black;
+    font-size: 50px;
+}
+
+
+
+#formulario{
+    background:  linear-gradient( rgba(45, 133, 174, 0.1) , rgba(85, 133, 174, 0.7));
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(58, 178, 160, 0.7);
+    overflow: hidden;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3)
+}
+
+/*  Animación del Boton Registrar */
+#registrar{
+    background-color: rgba(45, 133, 174, 0.5);
+    border: 2px solid white;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-family: inherit;
+    text-shadow: 2px 2px 2px black;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    animation: pulse 1.5s infinite;
+}
+button:focus {
+    outline: 1px dotted;
+    outline: 5px auto ;
+}
+
+@keyframes pulse{
+    0%{
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 rgba(256,256,256,.4);
+    }
+    70%{
+        transform: scale(1);
+        box-shadow: 0 0 0 20px rgba(256,256,256,0);
+    }
+    100%{
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 rgba(256,256,256,0);
+    }
+}
+
+/* Transicion Navbar */
+.bg-prima{
+    transition: all 2s ease;
+    background: linear-gradient(rgba(246,157,60, 0.8), rgba(255,0,0, 0.6))
+}
+.bg-inverso{
+    background: linear-gradient(rgba(0,0,0, 0.5), rgba(255,255,255, 0.10));
+}
