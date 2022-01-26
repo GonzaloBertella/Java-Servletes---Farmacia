@@ -1,3 +1,2 @@
-# Java-Servlets---Farmaciaa
-Java - NetBeans - Servlets &amp; JSP
-![Alt text](C:\Users\gonza\OneDrive\Escritorio\Programacion\PROGRAMACION-AsusDuo-Gonzalo\Portfolios\GitHub Servlets Farmacia\Java-Servlets---Farmacia\diagrama.png)
+Diagrama de la base de datos utilizada en el proyecto
+[My image](username.github.com/repository/img/Diagrama.png)
